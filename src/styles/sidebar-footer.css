@@ -15,6 +15,7 @@ body {
 .sidebar__navigation {
   background-color: #121212;
   border-radius: 8px;
+  padding: 16px 0 0 16px;
 }
 
 .logo {
@@ -65,15 +66,15 @@ body {
 .library .library__button {
   display: flex;
   margin-right: 10px;
-  padding: 20px 10px;
-  border: 0px;
   color: #b3b3b3;
   background-color: transparent;
+  border: 0px;
   font-size: 14px;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
   text-transform: none;
+  padding: 20px 10px;
 }
 
 .library .library__button .fa {
@@ -90,8 +91,8 @@ body {
 
 .section-playlist {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
+  justify-content: space-between;
   gap: 20px;
   background-color: #242424;
   color: #b3b3b3;
@@ -117,8 +118,8 @@ body {
 }
 
 .section-playlist__content .subtitle {
-  font-size: 12px;
   font-weight: 500;
+  font-size: 12px;
 }
 
 .section-playlist__content .section-playlist__button {
@@ -203,4 +204,5 @@ body {
   border: 0;
   border-radius: 40px;
   cursor: pointer;
+  flex-shrink: 0;
 }

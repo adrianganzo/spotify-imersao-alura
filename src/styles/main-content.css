@@ -13,6 +13,7 @@
   margin: 10px;
   border-radius: 8px;
   background-color: #121212;
+  padding: 12px;
 }
 
 .header__navigation .navigation {
@@ -39,6 +40,11 @@
   cursor: pointer;
 }
 
+.header__login {
+  display: flex;
+  align-items: center;
+}
+
 .header__search {
   display: flex;
   align-items: center;
@@ -61,15 +67,10 @@
   border: none;
   padding: 0px 100px 0 12px;
   color: #fff;
-  outline: none;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-}
-
-.header__login {
-  display: flex;
-  align-items: center;
+  outline: none;
 }
 
 .header__login .subscribe {
